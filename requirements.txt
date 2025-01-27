@@ -1,0 +1,6 @@
+streamlit
+PyPDF2
+sumy
+google-generativeai
+numpy
+re
