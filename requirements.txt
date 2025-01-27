@@ -4,3 +4,5 @@ sumy
 google-generativeai
 numpy
 nltk
+os
+re
