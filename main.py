@@ -8,8 +8,6 @@ import json
 import re
 import random
 import os
-
-load_dotenv()
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 #############################################
 # 1. Custom CSS Styling
