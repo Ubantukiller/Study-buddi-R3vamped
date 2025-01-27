@@ -7,7 +7,11 @@ import google.generativeai as genai
 import json
 import re
 import random
-GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 #############################################
 # 1. Custom CSS Styling
 #############################################
