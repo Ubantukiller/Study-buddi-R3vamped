@@ -7,7 +7,7 @@ import google.generativeai as genai
 import json
 import re
 import random
-
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 #############################################
 # 1. Custom CSS Styling
 #############################################
